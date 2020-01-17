@@ -64,8 +64,8 @@ function generateMasterArray() {
 
 
 let generateSecretWord = function () {
-    event.preventDefault()
-    var secretWord = ""
+    event.preventDefault();
+    var secretWord = "";
     for(let i=0;i<passwordLengthChecker;i++) {
     secretWord+=masterArray[Math.floor(Math.random()*((masterArray.length-1)-0)+0)];
     console.log(secretWord);
@@ -83,7 +83,7 @@ let copyText = function () {
     document.body.appendChild(textArea);
     textArea.select();
     document.execCommand("Copy");
-    alert("Your generated password has been copied to the clipboard!")
+    alert("Your generated password has been copied to the clipboard!");
     textArea.remove();
 }
 

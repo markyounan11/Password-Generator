@@ -71,11 +71,6 @@ body {
 }
 
 
-/* Sticky Footer */
-html, body {
-    height: 100%;
-}
-
 .wrap {
     min-height: 100%;
     /* equal to footer height */
@@ -85,20 +80,8 @@ html, body {
     margin-right: auto;
 }
 
-footer,
 .push {
   height: 115px;
-}
-/* end of sticky footer */
-footer {
-    margin-top: 5%;
-    text-align: center;
-    background: rgb(46, 51, 51);
-    font-size: 15px;
-    border-top: 4px solid #6e6e6e;
-    color: #6e6e6e;
-    padding-top: auto;
-    width: 100%;
 }
 
 /* media code for reponsiveness */
