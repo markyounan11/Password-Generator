@@ -6,7 +6,6 @@ h1 {
     font-size: 35px;
     line-height: 40px;
     color: black;
-    text-shadow: 2px 2px 3px gray;
 }
 h2 {
     padding: 30px 0 20px 15px;
@@ -61,13 +60,13 @@ body {
 
 #gen {
     margin: 30px 0 30px 20px;
-    background-color: blue;
+    background-color:blue;
     position: absoltute;
 }
 
 #copy{
     margin: 30px 30px 30px 0;
-    background-color: gray;
+    background-color:green;
     text-align: right;
 }
 
